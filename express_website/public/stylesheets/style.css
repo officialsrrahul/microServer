@@ -1,8 +1,22 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding-top: 50px;
+  
 }
 
-a {
-  color: #00B7FF;
+.jumbotron{
+
+  background:url(../images/1.jpeg) no-repeat;
+  background-position-y: -480px;
+  width: 100%;
+
+}
+footer{
+
+  background-color: antiquewhite;
+  text-align: center;
+  height: 40px;
+  margin-top: 30px;
+  padding-top: 10px;
+  overflow: auto;
+
 }

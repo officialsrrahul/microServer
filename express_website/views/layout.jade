@@ -15,25 +15,28 @@ html
       #navbarsExampleDefault.collapse.navbar-collapse
         ul.navbar-nav.mr-auto
           li.nav-item.active
-            a.nav-link(href='#')
+            a.nav-link(href='/#')
               | Home 
               span.sr-only (current)
 
           li.nav-item.dropdown
             a#dropdown01.nav-link.dropdown-toggle(href='https://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Dropdown
             .dropdown-menu(aria-labelledby='dropdown01')
-              a.dropdown-item(href='#') Action
-              a.dropdown-item(href='#') Another action
-              a.dropdown-item(href='#') Something else here
+              a.dropdown-item(href='/about') About Us
+              a.dropdown-item(href='/contact') Contacts
+              
         form.form-inline.my-2.my-lg-0
           input.form-control.mr-sm-2(type='text', placeholder='Search', aria-label='Search')
           button.btn.btn-outline-success.my-2.my-sm-0(type='submit') Search
     main.container(role='main')
     
     block content
+    footer
+     p &copy; 2018, All Rights Reserved
+
 
 
     script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js', integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo', crossorigin='anonymous')
       script.
         window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\\/script>')  
-      script(src='javascript/bootstrap.js')
+      script(src='./javascripts/bootstrap.js')
